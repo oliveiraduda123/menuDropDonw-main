@@ -1,0 +1,36 @@
+.title{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 4rem;
+}
+
+.title > h1 {
+  color: var(--roxoPrincipal);
+}
+
+.title > p {
+  margin-top: 1.3rem;
+  text-align: center;
+  width: 45rem;
+  font-size: 1.2rem;
+}
+
+.btnAgendar{
+  background-color: var(--roxoPrincipal);
+  color: var(--branco);
+  border: none;
+  border-radius: 10px;
+  padding: 0.5rem 2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-top: 1.3rem;
+  transition: ease-in-out 0.2s;
+}
+
+.btnAgendar:hover{
+  transition: ease-in-out 0.2s;
+  cursor: pointer;
+  box-shadow: rgba(255, 137, 107, 1) 0px 5px 15px;;
+}

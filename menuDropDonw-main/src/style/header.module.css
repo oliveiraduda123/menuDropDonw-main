@@ -1,0 +1,73 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--roxoPrincipal);
+    width: 100%;
+    padding: 1rem 5rem;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.logo > p{
+    color: var(--branco);
+    font-size: 1.3rem;
+}
+
+.linksContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    list-style-type: none;
+    gap: 2rem;
+    font-size: 1.2rem;
+    color: var(--branco);
+    position: relative;
+}
+
+
+
+.menuItem{
+    position: relative;
+    cursor: pointer;
+}
+
+.subLinks{
+    list-style: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: var(--branco);
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    width: 9rem;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-10px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.subLinks> li {
+    padding: 0.5rem;
+    color: var(--roxoPrincipal);
+    transition: ease-in-out 0.2s;
+    border-bottom: 0.1rem solid var(--roxoII);
+}
+
+.subLinks> li:hover {
+    background: #f0f0f0;
+    border-radius: 4px;
+}
+
+/* Mostrar o submenu quando passar o mouse */
+.menuItem:hover .subLinks {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
