@@ -8,8 +8,8 @@ export default function Home() {
       <Header />
 
       <div className={styled.title}>
-        <h1>Bem vindo à clínica Healt Care</h1>
-        <p>Nossa equipe de profissionais altamente qualificados está pronta para cuidar da sua saúde com dedicação e excelência. Oferecemos um atendimento humanizado, tecnologia de ponta e uma ampla gama de especialidades médicas para garantir seu bem-estar.</p>
+        <h1>Bem vindo à MedVita Centro Clínico!</h1>
+        <p>É um prazer recebê-lo em nossa clínica, um espaço dedicado ao seu bem-estar e à sua saúde. Nossa equipe de profissionais altamente qualificados está pronta para oferecer atendimento humanizado, com respeito, cuidado e comprometimento.</p>
         <button className={styled.btnAgendar}>Agendar consulta</button>
       </div>
     </div>

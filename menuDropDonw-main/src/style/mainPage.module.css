@@ -32,5 +32,5 @@
 .btnAgendar:hover{
   transition: ease-in-out 0.2s;
   cursor: pointer;
-  box-shadow: rgba(255, 137, 107, 1) 0px 5px 15px;;
+  box-shadow: rgba(255, 137, 107, 1) 0px 5px 15px;
 }

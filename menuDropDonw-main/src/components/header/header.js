@@ -11,11 +11,11 @@ export function Header() {
         <div className={styled.container}>
             <div className={styled.logo}>
                 <Image src={Logo} alt="" width={55} height={55} />
-                <p>Healt Care</p>
+                <p>MedVita Centro Clínico</p>
             </div>
 
             <ul className={styled.linksContainer}>
-                <li className={styled.menuItem}>Inicio</li>
+                <li className={styled.menuItem}>Home</li>
                 <li className={styled.menuItem}>Médicos
                     <ul className={styled.subLinks}>
                         <li>Listar</li>
